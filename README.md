@@ -88,7 +88,7 @@
 
 ####2、到项目的根下(es)
 * cd bin
-* install.bat 安装jar包到本地仓库（jdk6即可）
+* install.bat 安装jar包到本地仓库（jdk6及以上均可,根据自身使用的jdk版本进行配置es/codegen/pom.xml和es/parent/pom.xml，如：<jdk.version>1.7</jdk.version>）
 * create-db.bat 创建数据库（mysql需要5.5及以上 编码为utf-8）
 * refresh-db.bat 创建schema和初始化data
 * jetty.bat 启动web应用 默认端口9080 可以到es/web/pom.xml下修改（servlet 2.5即可）
